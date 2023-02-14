@@ -1,1 +1,59 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Roboto";
+  font-size: 0;
+}
+
+.conteiner {
+  width: 660px;
+  height: 482px;
+  margin: 50px auto;
+}
+
+.card {
+  display: inline-block;
+  width: 200px;
+  height: 226px;
+  margin: 0 30px 30px 0;
+  text-align: center;
+  background-color: #e0e0e0;
+}
+
+.card.last-images {
+  margin-right: 0;
+}
+
+.card > img {
+  width: 130px;
+  height: 130px;
+  margin: 0 35px;
+}
+
+p {
+  margin-bottom: 18px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+p:first-of-type {
+  margin: 10px 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
