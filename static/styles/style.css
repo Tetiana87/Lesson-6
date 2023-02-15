@@ -21,16 +21,14 @@ body {
 
 .conteiner {
   width: 660px;
-  height: 482px;
   margin: 50px auto;
 }
 
 .card {
   display: inline-block;
   width: 200px;
-  height: 226px;
   margin: 0 30px 30px 0;
-  text-align: center;
+  padding-bottom: 18px;
   background-color: #e0e0e0;
 }
 
@@ -39,20 +37,21 @@ body {
 }
 
 .card > img {
+  display: block;
   width: 130px;
   height: 130px;
-  margin: 0 35px;
+  margin: 0 auto 10px auto;
 }
 
 p {
-  margin-bottom: 18px;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
+  text-align: center;
 }
 
 p:first-of-type {
-  margin: 10px 0;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
